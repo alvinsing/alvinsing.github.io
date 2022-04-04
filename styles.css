@@ -1,0 +1,334 @@
+html {
+    scroll-behavior: smooth;
+   }
+   
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'Roboto Mono', monospace;
+}
+
+footer {
+    background-color: white;
+    padding: 50px 200px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #0F0F0F;
+    text-decoration: none;
+}
+
+a:hover {
+    transition-property: color;
+    transition-duration: 300ms;
+    color:#bd00ff;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu {
+    position: absolute;
+    text-align: center;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px 5px;
+}
+
+.menu li {
+    display: flex;
+    background-color: #F0F0F0;
+    margin: 5px 5px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5em;
+}
+
+#sidemenu {
+    position: fixed;
+    top: -300px;
+    right: -250px; 
+    width: 300px;
+    text-align: center;
+    transition-property: right, top;
+    transition-duration: 300ms;
+    z-index: 2;
+}
+
+#sidemenu:hover {
+    right: 0px; 
+}
+
+#sidemenu li {
+    display: flex;
+    background-color: hsla(0, 0%, 94%, 0.95);
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-content: center;
+    line-height: 2em;
+}
+
+#profile {
+    background-color: white;
+    padding: 120px 100px 50px 100px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.profile-title {
+    display: block;
+}
+
+#alvinpic {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.background {
+    background-color: #F0F0F0;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.5em;
+}
+
+#videoproduction {
+    background-color: white;
+    padding: 50px 100px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#motiongraphic {
+    background-color: white;
+    padding: 50px 100px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#graphicdesign {
+    background-color: white;
+    padding: 50px 100px;
+    font-family: 'Roboto Mono', monospace;
+    gap: 5px 5px;
+}
+
+.gd-title {
+    display: block;
+}
+
+.gd-image {
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+    padding: 2px;
+}
+
+#illustration {
+    background-color: white;
+    padding: 50px 100px;
+    font-family: 'Roboto Mono', monospace;
+    gap: 5px 5px;
+}
+
+.ill-title {
+    display: block;
+}
+
+.ill-image {
+    display: flex;
+    width: 30%;
+    padding: 2px;
+}
+
+#animation {
+    background-color: white;
+    padding: 50px 100px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+#coding {
+    background-color: white;
+    padding: 50px 100px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.coding-title {
+    display: block;
+}
+
+.codingskills {
+    display: block;
+    background-color: #F0F0F0;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.5em;
+    margin: 0 auto;
+    width: 20%;
+}
+
+#immersiveexperience {
+    background-color: white;
+    padding: 50px 100px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.immersive-title {
+    display: block;
+}
+
+.immersive-image {
+    display: flex;
+    width: 49%;
+    padding: 2px;
+}
+
+.copyright {
+    background-color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .empty-item {
+        visibility: hidden;
+        width: 45.5%;
+    }
+
+    .menu li {
+        display: none;
+    }
+
+    .sidemenu {
+        display: none;
+    }
+    
+    #alvinpic {
+        width: 50%;
+    }
+
+    #profile {
+        padding: 0px 100px 50px 100px;
+    }
+
+    #videoproduction {
+        padding: 50px 20px;
+    }
+    
+    #motiongraphic {
+        padding: 50px 20px;
+    }
+
+    #graphicdesign {
+        padding: 50px 20px;
+    }
+
+    #illustration {
+        padding: 50px 20px;
+    }
+
+    .gd-image {
+        width: 45%;
+    }
+
+    .ill-image {
+        width: 45%;
+    }
+
+    #animation {
+        padding: 50px 20px;
+    }
+
+    .codingskills {
+        width: 30%;
+    }
+
+    #immersiveexperience {
+        padding: 50px 20px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 640px) {
+    .empty-item {
+        display: none;
+    }
+
+    .menu li {
+        display: none;
+    }
+
+    .sidemenu {
+        display: none;
+    }
+
+    #alvinpic {
+        width: 80%;
+    }
+
+    .sidemenu {
+        display: none;
+    }
+
+    #profile {
+        padding: 0px 100px 50px 100px;
+    }
+
+    #videoproduction {
+        padding: 50px 0px;
+    }
+    
+    #motiongraphic {
+        padding: 50px 0px;
+    }
+
+    #graphicdesign {
+        padding: 50px 0px;
+    }
+
+    #illustration {
+        padding: 50px 0px;
+    }
+
+    .gd-image {
+        width: 100%;
+    }
+
+    .ill-image {
+        width: 100%;
+    }
+
+    #animation {
+        padding: 50px 0px;
+    }
+
+    .codingskills {
+        width: 100%;
+    }
+
+    #immersiveexperience {
+        padding: 50px 0px;
+    }
+
+    .immersive-image {
+        width: 100%;
+    }
+    
+    .copyright {
+        font-size: 11px;
+        width: 150px;
+    }
+}
