@@ -196,8 +196,12 @@ a:hover {
     background-color: white;
     font-family: 'Roboto Mono', monospace;
     font-size: 14px;
+<<<<<<< HEAD
     display: block;
     margin: 0 auto;
+=======
+    width: 100%;
+>>>>>>> 75fe912593da8dcecebe8ea09d9a9cbf9f8b2a1f
 }
 
 @media (max-width: 1000px) {
