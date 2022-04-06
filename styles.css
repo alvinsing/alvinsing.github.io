@@ -191,10 +191,9 @@ a:hover {
 }
 
 .copyright {
-    background-color: white;
     font-family: 'Roboto Mono', monospace;
     font-size: 14px;
-    text-align: center;
+    text-align: left;
     list-style-type: none; 
 }
 
