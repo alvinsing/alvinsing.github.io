@@ -197,6 +197,7 @@ a:hover {
     font-family: 'Roboto Mono', monospace;
     font-size: 14px;
     text-align: center;
+    list-style-type: none; 
 }
 
 @media (max-width: 900px) {
@@ -259,6 +260,10 @@ a:hover {
 
     .copyright {
         font-size: 12px;
+    }
+
+    .background {
+        display: none;
     }
 }
 
@@ -329,5 +334,9 @@ a:hover {
     
     .copyright {
         font-size: 11px;
+    }
+
+    .background {
+        display: none;
     }
 }
