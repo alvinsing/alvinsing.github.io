@@ -199,7 +199,7 @@ a:hover {
     text-align: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     .empty-item {
         visibility: hidden;
         width: 45.5%;
