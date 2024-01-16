@@ -11,6 +11,7 @@ h2 {
 
 footer {
     background-color: white;
+    padding-bottom: 20px;
 }
 
 img {
@@ -39,7 +40,7 @@ a:hover {
     text-align: center;
     padding: 10px 20px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 5px 5px;
 }
 
@@ -148,7 +149,7 @@ a:hover {
     padding: 2px;
 }
 
-#animation {
+#theatre {
     background-color: white;
     padding: 50px 100px;
     font-family: 'Roboto Mono', monospace;
