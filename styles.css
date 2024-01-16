@@ -201,6 +201,11 @@ a:hover {
 }
 
 @media (max-width: 900px) {
+
+    h2 {
+        font-size: large;
+    }
+
     .empty-item {
         visibility: hidden;
         width: 45.5%;
@@ -219,7 +224,11 @@ a:hover {
     }
 
     #profile {
-        padding: 0px 100px 50px 100px;
+        padding: 50px 20px;
+    }
+
+    .profile-title {
+        font-size: large;
     }
 
     #videoproduction {
@@ -246,7 +255,7 @@ a:hover {
         width: 45%;
     }
 
-    #animation {
+    #theatre {
         padding: 50px 20px;
     }
 
@@ -263,7 +272,8 @@ a:hover {
     }
 
     .background {
-        display: none;
+        /*display: none;*/
+        font-size: small;
     }
 }
 
@@ -320,7 +330,7 @@ a:hover {
         width: 100%;
     }
 
-    #animation {
+    #theatre {
         padding: 50px 0px;
     }
 
